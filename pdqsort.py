@@ -34,8 +34,6 @@ class PDQSort:
     insertSortThreshold    = 24
     nintherThreshold       = 128
     partialInsertSortLimit = 8
-    blockSize              = 64
-    cachelineSize          = 64
 
     @staticmethod
     def pdqLog(n):
