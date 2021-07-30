@@ -17,7 +17,7 @@ class MaxHeapSort:
 
     @staticmethod
     def heapify(array, a, b):
-        length = (b - a) // 1
+        length = (b - a) // 2
 
         for i in range(length, 1, -1):
             MaxHeapSort.siftDown(array, i, length, a)
